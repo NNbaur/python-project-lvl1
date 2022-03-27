@@ -1,3 +1,5 @@
 print('test')
-a = 2
-print(a + 'a'123)00dx)
+g = 'asa' + 234
+print('sddsd' + ew)
+print('sds' + 2345)
+print(sdd)
