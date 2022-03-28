@@ -18,7 +18,8 @@ def main():
                 count += 1
                 print('Correct!')
             else:
-                print(f"'{answer}' is wrong answer ;(. Correct answer was 'yes'")
+                print(f"'{answer}' is wrong answer ;(. "
+                      "Correct answer was 'yes'")
                 print(f"Let's try again, {name}")
                 break
         elif number % 2 != 0:
@@ -26,7 +27,8 @@ def main():
                 count += 1
                 print('Correct!')
             else:
-                print(f"'{answer}' is wrong answer ;(. Correct answer was 'no'")
+                print(f"'{answer}' is wrong answer ;(. "
+                      "Correct answer was 'no'")
                 print(f"Let's try again, {name}")
                 break
         if count == 3:
