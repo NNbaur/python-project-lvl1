@@ -23,9 +23,8 @@ def main():
                   "Correct answer was 'no'")
             print(f"Let's try again, {name}!")
             break
-        else:
-            count += 1
-            print('Correct!')
+        count += 1
+        print('Correct!')
         if count == 3:
             print(f'Congratulations, {name}!')
             break
