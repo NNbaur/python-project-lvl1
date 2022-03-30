@@ -20,7 +20,7 @@ def main():
             else:
                 print(f"'{answer}' is wrong answer ;(. "
                       "Correct answer was 'yes'")
-                print(f"Let's try again, {name}")
+                print(f"Let's try again, {name}!")
                 break
         elif number % 2 != 0:
             if answer == 'no':
