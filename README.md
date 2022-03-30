@@ -14,3 +14,5 @@ https://asciinema.org/a/481759 # brain-gcd(find greatest divisor) game example
 https://asciinema.org/a/481811 # brain-progression(find deleted term of an arithmetic progression) game example
 
 https://asciinema.org/a/482292 # brain-prime(given number is prime?) game example
+
+Project is done!
