@@ -13,24 +13,19 @@ def main():
         print(f'Question: {number}')
         answer = input()
         print(f'Your answer: {answer}')
-        if number % 2 == 0:
-            if answer == 'yes':
-                count += 1
-                print('Correct!')
-            else:
-                print(f"'{answer}' is wrong answer ;(. "
-                      "Correct answer was 'yes'")
-                print(f"Let's try again, {name}!")
-                break
-        elif number % 2 != 0:
-            if answer == 'no':
-                count += 1
-                print('Correct!')
-            else:
-                print(f"'{answer}' is wrong answer ;(. "
-                      "Correct answer was 'no'")
-                print(f"Let's try again, {name}!")
-                break
+        if number % 2 == 0 and answer == 'no':
+            print(f"'{answer}' is wrong answer ;(. "
+                  "Correct answer was 'yes'")
+            print(f"Let's try again, {name}!")
+            break
+        elif number % 2 != 0 and answer == 'yes':
+            print(f"'{answer}' is wrong answer ;(. "
+                  "Correct answer was 'no'")
+            print(f"Let's try again, {name}!")
+            break
+        else:
+            count += 1
+            print('Correct!')
         if count == 3:
             print(f'Congratulations, {name}!')
             break
