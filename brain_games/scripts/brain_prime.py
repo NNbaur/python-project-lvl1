@@ -24,7 +24,7 @@ def main():
             else:
                 print(f"'{answer}' is wrong answer ;(. "
                       "Correct answer was 'yes'")
-                print(f"Let's try again, {name}")
+                print(f"Let's try again, {name}!")
                 break
         elif not flag:
             if answer == 'no':

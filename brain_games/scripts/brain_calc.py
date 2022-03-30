@@ -28,7 +28,7 @@ def main():
         else:
             print(f"'{uranswer}' is wrong answer ;(. "
                   f"Correct answer was '{answer}'")
-            print(f"Let's try again, {name}")
+            print(f"Let's try again, {name}!")
             break
         if count == 3:
             print(f'Congratulations, {name}!')
